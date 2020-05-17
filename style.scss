@@ -278,8 +278,8 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: #212529 !important;
-  padding-bottom: 3rem !important;
-  padding-top: 3rem !important;
+  // padding-bottom: 3rem !important;
+  // padding-top: 3rem !important;
 }
 
 footer {
@@ -287,6 +287,12 @@ footer {
   text-align: center;
   display: block;
 }
+
+
+
+
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
