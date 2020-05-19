@@ -1,0 +1,33 @@
+I"<p>Đây là bài đầu tiên trong chuỗi bài viết hướng dẫn các bạn cài đặt và cấu hình Home Assistant cũng như các thành phần của nó. Hoàn thành chuỗi bài viết này bạn có thể sở hữu một trung tâm tự động hóa cho ngôi nhà của bạn.</p>
+
+<h2 id="khuyến-nghị-phần-cứng">KHUYẾN NGHỊ PHẦN CỨNG</h2>
+<p>Raspberry là phần cứng phố biến nhất hiện tại và với giá cả phải chăng để làm trung tâm tự động hóa cho căn nhà của bạn.</p>
+<blockquote>
+  <ol>
+    <li><a href="https://www.proe.vn/raspberry-pi-4-model-b-2gram">Raspbery Pi 4 Model B(2GB)</a></li>
+    <li><a href="https://www.proe.vn/rpi-usb-c-global-power-adapter-5-1v-3a-15-3w">Bộ nguồn (ít nhất 2A)</a></li>
+    <li><a href="https://www.memoryzone.com.vn/the-nho-microsdhc-sandisk-extreme-v30-a1-667x-32gb-100mbs">Thẻ nhớ Micro SD</a>. Khuyến nghị các bạn sử dụng thẻ A1 32GB hoặc A2 32GB chúng được tối ưu hóa cho các ứng dụng lưu trữ</li>
+    <li><a href="https://www.memoryzone.com.vn/dau-doc-the-transcend-rdf5-chuan-30">Thiết bị đọc thẻ nhớ</a></li>
+    <li><a href="https://www.anphat.vn/san-pham/cable/dintek-patch-cord-utp-cat-5e-5m">Cáp Ethernet</a></li>
+  </ol>
+</blockquote>
+
+<h2 id="yêu-cầu-phần-mềm">YÊU CẦU PHẦN MỀM</h2>
+<ul>
+  <li>Tải về và giải nén vào ổ đĩa của bạn file ảnh Home Assistant dành cho <a href="https://www.home-assistant.io/hassio/installation/">thiết bị của bạn</a></li>
+  <li>Phần mềm <a href="https://www.balena.io/etcher">balenaEtcher</a> để ghi file ảnh vào thẻ nhớ.</li>
+</ul>
+
+<h2 id="tiến-hành-cài-đặt">TIẾN HÀNH CÀI ĐẶT</h2>
+<ol>
+  <li>Cài đặt phần mềm balenaEtcher vào máy tính</li>
+  <li>Cho thẻ nhớ vào đầu đọc thẻ và tién hành kết nối đến máy tính</li>
+  <li>Mở phần mềm balenaEtcher lên và tiến hành flash file ảnh vào thẻ nhớ và chờ cho đến khi quá trình này hoàn tất</li>
+  <li>Gắn thẻ SD vào Raspbery -&gt; Cấp nguồn -&gt; Cắm dây Ethernet vào Raspbery</li>
+  <li>Đợi một lát. Để chắc chắcn quá trình FLASH thành công các bạn hãy chú ý đèn LAN trên Raspberry có nháy không? Nếu có quá trình cài đặt đang diễn ra và có thể đến 20 phút hoặc hơn hãy thưởng thức 1 ly Coca và chờ đợi kết quả.</li>
+  <li>Nếu bạn muốn xem màn hình chờ cài đặt hãy thử truy cập địa chỉ <a href="http://homeassistant.local:8123">http://homeassistant.local:8123</a> nếu không được hãy thử lại với địa chỉ <a href="http://homeassistant:8123">http://homeassistant:8123</a>
+<img src="/images/config.png" alt="_config.yml" /></li>
+</ol>
+
+<p>The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the <a href="https://github.com/barryclark/jekyll-now">Jekyll Now repository</a> on GitHub.</p>
+:ET

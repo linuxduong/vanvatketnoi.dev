@@ -1,0 +1,18 @@
+I"<p>Đây là bài đầu tiên trong chuỗi bài viết hướng dẫn các bạn cài đặt và cấu hình Home Assistant cũng như các thành phần của nó. Hoàn thành chuỗi bài viết này bạn có thể sở hữu một trung tâm tự động hóa cho ngôi nhà của bạn.</p>
+
+<h2 id="khuyến-nghị-phần-cứng">KHUYẾN NGHỊ PHẦN CỨNG</h2>
+<p>Raspberry là phần cứng phố biến nhất hiện tại và với giá cả phải chăng để làm trung tâm tự động hóa cho căn nhà của bạn.</p>
+<blockquote>
+  <ol>
+    <li><a href="https://www.proe.vn/raspberry-pi-4-model-b-2gram">Raspbery Pi 4 Model B(2GB)</a></li>
+    <li>Bộ nguồn (ít nhất 2A)</li>
+    <li>Thẻ nhớ Micro SD. Khuyến nghị các bạn sử dụng thẻ A1 32GB hoặc A2 32GB chúng được tối ưu hóa cho các ứng dụng lưu trữ</li>
+    <li>Thiết bị đọc thẻ nhớ</li>
+    <li>Cáp Ethernet</li>
+  </ol>
+</blockquote>
+
+<p><img src="/images/config.png" alt="_config.yml" /></p>
+
+<p>The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the <a href="https://github.com/barryclark/jekyll-now">Jekyll Now repository</a> on GitHub.</p>
+:ET
